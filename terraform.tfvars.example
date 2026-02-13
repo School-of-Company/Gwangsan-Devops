@@ -1,0 +1,15 @@
+# Project Configuration
+prefix      = "gwangsan"
+region      = "ap-northeast-2"
+environment = "dev"
+
+# AWS CLI Profile
+awscli_profile = "default"
+
+# Domain and Certificate
+domain_name     = "gwangsan.io.kr"
+certificate_arn = null # Set to existing ACM certificate ARN if available
+
+# ALB Configuration
+enable_http  = true
+enable_https = true
